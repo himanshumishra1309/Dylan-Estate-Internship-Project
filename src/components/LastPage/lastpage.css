@@ -1,0 +1,10 @@
+.leftside {
+    flex: 2;
+}
+  
+.rightside {
+    flex: 1;
+    position: sticky;
+    top: 30px;
+    height: fit-content;
+}

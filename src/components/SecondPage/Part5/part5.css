@@ -1,0 +1,30 @@
+.custom-scrollbar::-webkit-scrollbar {
+width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+background: #f1f1f1; 
+border-radius: 15px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+background: #888; 
+border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+@keyframes colorChange {
+0% { background-position: 0% 100%; }
+100% { background-position: 100% 0%; }
+}
+
+.transition-div {
+background: linear-gradient(to left, rgb(195, 206, 216) 50%, blue 50%);
+background-size: 200% 100%;
+transition: background-position 0.5s;
+background-position: right;
+}
+    
