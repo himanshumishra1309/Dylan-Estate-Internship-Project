@@ -22,9 +22,9 @@ function Part1() {
 
     useEffect(()=>{
       return ()=>{
-          document.body.style.backgroundColor = "white"
+          document.body.style.backgroundColor = "white";
       }
-  },[])
+    },[])
   
     const handlePropertyForChange = (value) => {
       setPropertyFor(value);
@@ -88,10 +88,6 @@ function Part1() {
   
     const handleSubmit = (event) => {
       event.preventDefault();
-      // if (!propertyFor || !propertyType || !builtUpArea || !carpetArea || !propertyAge) {
-      //   alert("Please fill in all required fields.");
-      //   return;
-      // }
       
       if (window.innerWidth < 525) {
         const transitionDiv = document.querySelector('.transition-div');
