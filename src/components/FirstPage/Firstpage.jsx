@@ -6,7 +6,7 @@ function Firstpage() {
    
   return (
     <div className='bg-blue-950'>
-    <div className='flex items-start flex-col justify-center ml-20 mb-16 pb-3 pt-16 overflow-y-hidden max-[768px]:m-3 max-[768px]:mb-10'>
+    <div className='flex items-start flex-col justify-center ml-20 mb-16 pb-3 pt-16 overflow-y-hidden max-[768px]:pt-3 max-[768px]:mb-10'>
         <h1 className='max-[768px]:text-start text-white text-4xl'>Sell or Rent your Property For Free</h1>
         <br/>
         <p className='max-[768px]:text-start text-white text-xl'>Whether you’re ready to sell or looking for answers, we’ll guide you with data and expertise specific to your needs.</p>
