@@ -3,11 +3,6 @@ import Card from '../Card/Card'
 import tick from '../Svgs/tick.svg'
 
 function Firstpage() {
-    useEffect(()=>{
-        return ()=>{
-            document.body.style.backgroundColor = "rgb(1, 1, 60)"
-        }
-    },[])
   return (
     <>
     <div className='flex items-start flex-col justify-center ml-20 mb-16 mt-16 max-[768px]:m-3 max-[768px]:mb-10'>
